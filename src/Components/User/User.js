@@ -9,11 +9,10 @@ const User = (props) => {
     }
 
     const userListStyle = {
-        // border: '1px solid purple',
-        padding: '10px',
+        padding: '20px',
         marginBottom: '10px',
         borderRadius: '10px',
-        backgroundImage: 'linear-gradient(-45deg, orange, hotpink)'
+        backgroundImage: 'linear-gradient(-45deg, orange, lightsalmon)'
     }
     return (
         <div style={userListStyle}>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {CssBaseline, Container} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import User from '../User/User';
 
@@ -40,11 +39,9 @@ const Home = () => {
             
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-                        <Paper className={classes.paper}>
                             {
                                 user.map(user => <User user={user}></User>)
                             }
-                        </Paper>
                     </Grid>
                 </Grid>
             </Container>

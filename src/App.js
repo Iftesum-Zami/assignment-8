@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -8,11 +8,13 @@ import {
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import UserDetail from './Components/UserDetail/UserDetail';
+import Header from './Components/Header/Header';
 
 function App() {
 
   return (
     <div>
+      <Header></Header>
       <Router>
         <Switch>
           <Route path="/home">

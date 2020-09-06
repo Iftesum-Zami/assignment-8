@@ -1,8 +1,25 @@
 import React from 'react';
+import Image from '../Image/Image';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import { Button } from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    backgroundColor: 'blue'
+  },
+}));
 
 const Comment = (props) => {
     const {name, email, body, id} = props.comment;
-    console.log(props.img);
+
+    const classes = useStyles();
 
     const commentStyle = {
         padding: '10px',
@@ -12,12 +29,35 @@ const Comment = (props) => {
         boxShadow: '5px 5px 10px gray',
         backgroundImage: 'linear-gradient(-45deg, lightgreen, lightblue)',
     }
+
+    const imageStyle = {
+        textAlign: 'center',
+        justifyContent: 'center',
+    }
     return (
-        <div style={commentStyle}>
-            <h4>Name: {name}</h4>
-            <p>ID: {id}</p>
-            <p>Email: {email}</p>
-            <p>Body: {body}</p>
+    
+        <div style={commentStyle} className={classes.root}>
+            <Grid container spacing={0}>
+                <Grid item xs={3}>
+                    
+                        <div style={imageStyle}>
+                            <Image></Image>
+                            
+                        </div>
+                    
+                </Grid>
+                <Grid item xs={8}>
+                    <div>
+                        <h3>Name: {name}</h3>
+                        <p>ID: {id}</p>
+                        <p>Email: {email}</p>
+                        <p>Body: {body}</p>
+                        <Button variant="contained" color="primary">
+                            Reply
+                        </Button>
+                    </div>
+                </Grid>
+            </Grid>
         </div>
     );
 };
