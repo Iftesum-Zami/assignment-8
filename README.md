@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Assignment 8
 ---
+[My Resume](https://drive.google.com/file/d/1JjqWGyt79JNy1k2BjHQAX2Wjm-Nobk4q/view?usp=sharing)
 
 In the project directory, you can run:
 
