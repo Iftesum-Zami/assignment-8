@@ -1,8 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Assignment 8
----
+___
 [My Resume](https://drive.google.com/file/d/1JjqWGyt79JNy1k2BjHQAX2Wjm-Nobk4q/view?usp=sharing)
+####Features
+
 
 In the project directory, you can run:
 
