@@ -2,10 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Assignment 8
 ___
-[My Resume](https://drive.google.com/file/d/1JjqWGyt79JNy1k2BjHQAX2Wjm-Nobk4q/view?usp=sharing)
+Site is responsive, it has firebase authentication and a collection of e-mails in MongoDB from where it will differentiate whether the logged in user is a guest or an admin.
 
 ### Features
+* This is a website where you can learn creative work 
 
+### Technologies Used
+* ReactJS
+
+[Visit Website](https://drive.google.com/file/d/1JjqWGyt79JNy1k2BjHQAX2Wjm-Nobk4q/view?usp=sharing)
+[My Resume](https://drive.google.com/file/d/1JjqWGyt79JNy1k2BjHQAX2Wjm-Nobk4q/view?usp=sharing)
 
 In the project directory, you can run:
 
